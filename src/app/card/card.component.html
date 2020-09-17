@@ -1,0 +1,5 @@
+<div class="card">
+  <h3 *ngIf="config.title">{{ config.title }}</h3>
+  <p *ngIf="config.description">{{ config.description }}</p>
+  <app-button-icon [config]="config.iconButton"></app-button-icon>
+</div>

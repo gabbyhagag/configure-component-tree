@@ -1,0 +1,4 @@
+<h2 *ngIf="config.title">{{ config.title }}</h2>
+<div class="card-list">
+  <app-card *ngFor="let card of config.cards" [config]="card"></app-card>
+</div>

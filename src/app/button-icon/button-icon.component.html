@@ -1,0 +1,4 @@
+<button (click)="config.action($event)">
+  <svg-icon *ngIf="config.iconKey" [key]="config.iconKey"></svg-icon>
+  {{ config.text }}
+</button>
